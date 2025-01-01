@@ -173,23 +173,3 @@ h1 {
   width: 100px;
   height: 100px;
 }
-
-.stop-button {
-  position: relative;
-  bottom: 3rem;
-  z-index: 1; /* Memastikan tombol berada di atas elemen lain */
-  background-color: #ff5c5c; /* Warna latar tombol */
-  color: #fff; /* Warna teks */
-  padding: 15px 30px; /* Padding untuk ukuran tombol */
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-}
-
-
-.stop-button:hover {
-  background-color: #ff3838;
-  transform: scale(1.1);
-}
