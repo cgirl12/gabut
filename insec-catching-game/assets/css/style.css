@@ -117,7 +117,6 @@ h1 {
 
 .game-container {
   position: relative;
-  margin-bottom: 6rem;
 }
 
 .time,
@@ -176,8 +175,8 @@ h1 {
 }
 
 .stop-button {
-  position: absolute;
-  bottom: 1rem;
+  position: relative;
+  bottom: 3rem;
   z-index: 1; /* Memastikan tombol berada di atas elemen lain */
   background-color: #ff5c5c; /* Warna latar tombol */
   color: #fff; /* Warna teks */
